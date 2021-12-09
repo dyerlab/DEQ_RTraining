@@ -20,7 +20,9 @@ if( length( to_install) ) {
   cat("After checking what you already have installed, these will be installed: ", 
       paste(to_install, collapse=", "), "\n" )
   cat("Installing\n")
-  install.packages( to_install, ask=FALSE )
+  install.packages( to_install, 
+                    ask=FALSE,
+                    verbose = TRUE )
   
 } else { 
   cat("There are no packages needed, you already have everything.\n")    
