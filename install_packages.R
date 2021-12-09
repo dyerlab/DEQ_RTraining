@@ -18,11 +18,11 @@ curr_packages <- names( is.na(curr_packages[,4]))
 to_install <- setdiff( needed, curr_packages) 
 if( length( to_install) ) { 
   cat("After checking what you already have installed, these will be installed: ", 
-      paste(to_install, collapse=", ") )
-  cat("Installing")
+      paste(to_install, collapse=", "), "\n" )
+  cat("Installing\n")
   install.packages( to_install, ask=FALSE )
   
 } else { 
-  print("There are no packages needed, you already have everything.")    
+  cat("There are no packages needed, you already have everything.\n")    
 }
 
