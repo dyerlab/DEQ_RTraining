@@ -1,0 +1,62 @@
+---
+title: "Basic R Competencies"
+author: "Rodney Dyer, PhD<br/>Center for Environmental Studies<br/>Virginia Commonwealth University"
+output: 
+  html_document:
+    css: ["./css/styles.css"]
+---
+
+```{r setup, include=FALSE}
+library( knitr )
+knitr::opts_chunk$set( echo=FALSE )
+```
+
+
+
+# R Workshop
+
+This is the content for an R workshop put together for the select members of the Virginia Deparatment of Conservation.  The purpose of this workshop is to provide an overview of some core competencies in the R language and analysis environment.
+
+As both a student and instructor in classic 'statistics' classes, the common approach is to spend the vast amount of time and effort on describing the characteristics of statistics (derivations, expectations, etc.).  This is perfectly fine, it is important on many levels to make sure that practitioners understand the basis and context of all the kinds of analyses they use.  However, the drawback here, in my experience, is that once you've spent a semester (or year, or your Masters) getting all this knowledge under your belt—and one can easily demonstrate their understanding of the parameters in a model—it is not easy to actually work with **real data**.  What is needed, *writ large* for most people is a level of data literacy, which builds a set of core tools in understanding how to acquire, manipulate, visualize, analyze, and communicate about data.  
+
+In most scenarios, the following diagram describes the actual workflow of data as it goes through the lifecycle of analysis and communication.
+
+<center>
+![](https://live.staticflickr.com/65535/51736018271_8b481158b2_w_d.jpg)
+</center>
+
+In many analysis toolchains, this process lives in many different kinds of software (spreadsheets, graphics software, statistical packages, presentation software, etc.), which makes it more difficult and tedious to efficiently go from data creation through to communication without a lot of manual intervention.   In this workshop, we are going to explore how the use of the R ecosystem can streamline this process by being able to satisfy each of the steps outline in the graphic above.
+
+# Schedule of Topics
+
+This two-day workshop will cover the following topics.  The links will take you to a page that has both the slides associated with the topic as well as activities and resources.  
+
+*Day 1: Basic Data Types, Manipulation, & Visualization*    
+- [Data in R]()  
+- [Manipulating Data Flows]()  
+- [The Grammar of Graphics]()  
+- [Logic & Functions]()  
+
+*Day 2: Hands On Applications*  
+- [Spatial Data]()  
+- [Mapping Activities]()  
+- [To GIS and Back]()  
+- [RMarkdown]()  
+
+<hr>
+
+
+
+<table>
+<tr>
+<td><img src="https://live.staticflickr.com/65535/51736713669_e090a37a9a_o_d.jpg" class="rounded"/></td>
+<td>&nbsp;</td>
+<td>
+<h3>Rodney Dyer</h3>
+<a href="https://ces.vcu.edu">Center for Environmental Studies</a>, <a href="https://vcu.edu">Virginia Commonwealth University</a><br/>
+</td>
+</tr>
+</table>
+
+
+
