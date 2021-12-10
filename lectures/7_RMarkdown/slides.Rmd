@@ -1,0 +1,61 @@
+---
+title: "Data & R"
+subtitle: ""
+author: "Rodney J. Dyer"
+institute: "Center for Environmental Studies"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: [white_slides.css, middlebury, middlebury-fonts]
+    seal: false
+    nature:
+      titleSlideClass: ["center","middle"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+class: left, bottom
+background-image: url("images/contour.png")
+background-position: right
+background-size: auto
+
+
+# Data Containers
+
+### Vectors, Matrices, Data Frames, & Tibbles
+
+
+
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<img src="images/ces_logo.svg" width="400px">
+
+---
+class: sectionTitle
+
+# But Vectors?
+
+
+
+
+
+
+---
+class: middle
+background-image: url("images/contour.png")
+background-position: right
+background-size: auto
+
+.center[
+
+# Questions?
+
+
+![Peter Sellers](images/peter_sellers.gif)
+]
+
