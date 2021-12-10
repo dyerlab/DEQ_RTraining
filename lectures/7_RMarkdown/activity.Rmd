@@ -1,0 +1,16 @@
+---
+title: "Hands On Activity"
+output: html_notebook
+---
+
+# Learning Objectives
+
+
+
+
+# External Resources
+
+
+
+
+# Exercises
